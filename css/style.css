@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-pixabay-33197.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text {
+    display: inline-block;
+    background-color: rgba(99, 22, 35, 0.308);
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    border: 2px solid rgba(218, 137, 150, 0.788);
+    transition: all 0.3s ease-in-out;
+}
+
+.intro-image__text a {
+    text-decoration: none;
+    color: rgb(235, 47, 78);
+}
+
+.intro-image__text:hover {
+    transform:scale(1.2)
+}
+
+.intro-text {
+    clip-path: polygon(50% 20%, 89% 0, 100% 10%, 100% 79%, 100% 100%, 32% 100%, 0 100%, 0 6%, 14% 0);
+    height: 250px;
+    background-color: rgb(210, 248, 148);
+    color: #0c0a01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    margin-top: -3.2rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-wordsurfer-842876.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #692c1093;
+    color: #d49b66;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    border: 2px solid #692c108e;
+    transition: all 0.3s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    height: 350px;
+    background-color: #caa180;
+    color: #692c10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-ssayeed-bin-mohiuddin-599954973-29689995.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #28201c69;
+    color: #bda57b;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    border: 2px solid #472c1a62;
+    transition: all 0.3s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 200px;
+    background-color: #bda57b;
+    color:rgb(63, 65, 64);
+    padding-top: 2rem;
+    font-size: 2rem;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color:rgb(63, 65, 64);
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
+
